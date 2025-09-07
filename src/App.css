@@ -1,0 +1,32 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.under-construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.construction-content {
+  max-width: 600px;
+}
+
+.construction-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #ff6b35;
+}
+
+.construction-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #666;
+}
